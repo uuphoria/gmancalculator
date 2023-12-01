@@ -1,7 +1,7 @@
-print("Welcome To GMan's Calculator Made In Python!")
-operator = input("Enter an operator (+ - ): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
+print("welcome to uuphoria's python calculator")
+operator = input("Enter an operator. (+ - ): ")
+num1 = float(input("Enter the First number.: "))
+num2 = float(input("Enter the Second number.: "))
 
 if operator == "+":
     result = num1 + num2
@@ -11,4 +11,4 @@ elif operator == "-":
     print(round(result, 3))
 
 else:
-    print(f"{operator} is not a valid operator")
+    print(f"{operator} is not valid.")
